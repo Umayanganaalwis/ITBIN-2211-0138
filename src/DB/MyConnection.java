@@ -23,7 +23,7 @@ public class MyConnection {
     public static void loadConnection(){
         String url = "jdbc:mysql://localhost:3306/tune_wave";
         String userName = "root";
-        String pass = "Ijse@123";
+        String pass = "1234";
         
         try{
             con = DriverManager.getConnection(url, userName, pass);
